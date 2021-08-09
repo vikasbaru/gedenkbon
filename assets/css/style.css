@@ -138,9 +138,16 @@ a:hover {
     width: auto;
     height: calc(100% + 1.5rem);
 }
+.bros {
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.1;
+    width: 38vw;
+}
 
 .testimonials {
-    background: rgba(111,72,103,0.06);
+    background: #F7F4F6;
     margin-top: -5rem;
     padding-top: 10rem;
 }
@@ -182,10 +189,120 @@ a:hover {
     background: rgba(34,181,115,0.17);
     font-size: 0.9rem;
 }
+.foot-bros {
+    right: 20px;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.4;
+    width: 300px;
+}
 .copyright {
     background: #6f4867;
     font-size: 0.8rem;
 }
 .copyright a {
     color: #fff;
+}
+
+/***** Responsive ****/
+@media (max-width: 1399px) {
+    .hand-card {
+        max-width: 500px;
+    }
+    #hero .btn {
+        right: -4rem;
+    }
+}
+@media (max-width: 1199px) {
+    .hand-card {
+        max-width: 400px;
+    }
+    .cta {
+        overflow: hidden;
+    }
+    .cta img {
+        left: -15%;
+    }
+}
+@media (max-width: 991px) {
+    .hand-card {
+        max-width: 310px;
+    }
+    #hero h1 {
+        font-size: 5rem;
+    }
+    #hero h2 {
+        font-size: 2rem;
+    }
+    #hero ul li {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .navbar-collapse {
+        background: #fff;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+        padding: 2rem
+    }
+    .navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .cta img {
+        display: none;
+    }
+    .testimonials {
+        margin-top: -3rem;
+    }
+    .bros {
+        width: 60vw;
+    }
+}
+@media (max-width: 767px) {
+    .hand-card {
+        max-width: 40vw;
+    }
+    #hero h1 {
+        font-size: 4rem;
+    }
+    #hero h2 {
+        font-size: 1.5rem;
+    }
+    #hero ul li {
+        font-size: 0.9rem;
+        margin-bottom: 0.9rem;
+    }
+    #hero ul li:before {
+        width: 22px;
+        height: 22px;
+    }
+    .testimonials {
+        margin-top: -2.5rem;
+    }
+}
+@media (max-width: 576px) {
+    #header {
+        overflow: hidden;
+    }
+    #hero {
+        background-size: 138vw auto;
+        margin-left: -15px;
+        margin-right: -15px;
+        position: relative;
+        padding-bottom: 7vw;
+    }
+    #hero h1 {
+        font-size: 3rem;
+    }
+    #hero h2 {
+        font-size: 1.2rem;
+    }
+    #hero .btn {
+        right: auto;
+    }
+    .hand-card {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        width: 100vw;
+    }
 }
