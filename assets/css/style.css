@@ -1,0 +1,191 @@
+@import url(../fonts/stylesheet.css);
+
+:root {
+    --bs-primary: #006837;
+    --bs-primary-rgb: 0,104,55;
+}
+
+/***** General ****/
+body {
+    font-family: 'Catamaran';
+    font-weight: 300;
+    color: rgba(0,0,0,0.7);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+p {
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+}
+a {
+    color: rgb(111, 72, 103);
+    text-decoration: none;
+}
+a:hover {
+    color: rgba(0,0,0,0.7);
+}
+
+/***** BS overrides ****/
+.btn {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+}
+.btn-lg {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+.btn-success,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #006837;
+    border-color: #006837;
+}
+.btn-success:focus,
+.btn-success:hover,
+.btn-secondary:focus,
+.btn-secondary:hover,
+.btn-primary {
+    background-color: #21B573;
+    border-color: #21B573;
+}
+.btn-secondary {
+    background-color: rgb(111, 72, 103);
+    border-color: rgb(111, 72, 103);
+}
+.btn-secondary:focus,
+.btn-secondary:hover {
+    background-color: #21B573;
+    border-color: #21B573;
+}
+.form-control {
+    border-radius: 0;
+    border: none;
+    padding: 1rem;
+}
+
+/***** Header ****/
+.navbar-brand {
+    max-width: 100px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(111, 72, 103);
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #006837;
+}
+#header {
+    background: url(../img/header-bg.png) no-repeat;
+    background-size: 100% auto;
+}
+
+/***** Pages ****/
+.hero-wrap {
+    border-bottom: 3px solid #21B573;
+}
+#hero {
+    background: url(../img/ovals.png) no-repeat center top;
+    background-size: 100% auto;
+}
+#hero h1 {
+    font-family: 'Bernardo Moda';
+    font-size: 6rem;
+}
+#hero h2 {
+    font-weight: 300;
+    font-size: 3rem;
+}
+#hero ul li {
+    position: relative;
+    padding-left: 2.5rem;
+    margin-bottom: 1.8rem;
+    font-size: 1.2rem;
+}
+#hero ul li:before {
+    width: 30px;
+    height: 30px;
+    content: '';
+    position: absolute;
+    left: 0;
+    background: url(../img/bullet.png) no-repeat;
+    background-size: contain;
+}
+#hero .btn {
+    position: relative;
+    right: -7rem;
+}
+
+.cta {
+    background: url(../img/cta-bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 5rem 0;
+}
+.cta img {
+    left: 0;
+    top: -1.5rem;
+    width: auto;
+    height: calc(100% + 1.5rem);
+}
+
+.testimonials {
+    background: rgba(111,72,103,0.06);
+    margin-top: -5rem;
+    padding-top: 10rem;
+}
+.testimonials .owl-nav {
+    position: absolute;
+    transform: translateY(-50%);
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.owl-carousel {
+    padding: 0 5rem;
+}
+.owl-nav .owl-next {
+    right: 0;
+    position: absolute;
+    font-size: 10rem!important;
+    color: #006837!important;
+}
+.owl-nav .owl-prev {
+    left: 0;
+    position: absolute;
+    font-size: 10rem!important;
+    color: #006837!important;
+}
+.owl-item img {
+    max-width: 150px;
+    margin: 0 auto 20px auto;
+}
+
+.saldo {
+    background: url(../img/saldo.png) no-repeat;
+    background-size: cover;
+}
+
+/***** Footer ****/
+#footer {
+    background: rgba(34,181,115,0.17);
+    font-size: 0.9rem;
+}
+.copyright {
+    background: #6f4867;
+    font-size: 0.8rem;
+}
+.copyright a {
+    color: #fff;
+}

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Bernardo Moda';
+    src: url('BernardoModaBold.eot');
+    src: url('BernardoModaBold.eot?#iefix') format('embedded-opentype'),
+        url('BernardoModaBold.woff2') format('woff2'),
+        url('BernardoModaBold.woff') format('woff'),
+        url('BernardoModaBold.ttf') format('truetype'),
+        url('BernardoModaBold.svg#BernardoModaBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Catamaran';
+    src: url('Catamaran-Medium.eot');
+    src: url('Catamaran-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Catamaran-Medium.woff2') format('woff2'),
+        url('Catamaran-Medium.woff') format('woff'),
+        url('Catamaran-Medium.ttf') format('truetype'),
+        url('Catamaran-Medium.svg#Catamaran-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Catamaran';
+    src: url('Catamaran-Light.eot');
+    src: url('Catamaran-Light.eot?#iefix') format('embedded-opentype'),
+        url('Catamaran-Light.woff2') format('woff2'),
+        url('Catamaran-Light.woff') format('woff'),
+        url('Catamaran-Light.ttf') format('truetype'),
+        url('Catamaran-Light.svg#Catamaran-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
